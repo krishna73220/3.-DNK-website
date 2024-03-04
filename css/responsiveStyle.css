@@ -1,0 +1,137 @@
+/* <!-Responsive Design---> */
+
+@media (max-width: 1199px) {
+
+    /* header */
+    .navbar-expand-lg .navbar-nav {
+        align-items: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+        font-size: .875rem;
+    }
+
+    .main-btn {
+        font-size: .875rem;
+    }
+
+    /* =================================== */
+
+
+
+}
+
+
+
+
+
+@media (max-width:991px) {
+
+    /* custom css */
+    section {
+        padding: 1.875rem 0;
+    }
+
+    /* 2 Navbar */
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: .9375rem;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: .9375rem;
+    }
+
+    /* ====================================== */
+    .navbar {
+        position: relative !important;
+
+    }
+
+    .header_wrapper .navbar {
+        background-color: #034e7de8;
+    }
+
+    .navbar-toggler {
+        color: white !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    /* custom css */
+    h1 {
+        font-size: 1.875rem !important;
+        line-height: 2.5rem !important;
+    }
+
+    h3 {
+        font-size: 1.75rem !important;
+        line-height: 2.1875rem !important;
+    }
+
+    h5 {
+        font-size: 1.25rem !important;
+    }
+
+    p {
+        font-size: .8125rem !important;
+        line-height: 1.5rem !important;
+    }
+
+    /* ====================================== */
+    .home-img-div {
+        height: 80vh;
+        width: 100%;
+        margin-bottom: 1rem !important;
+      
+    }
+    .head-line-row {
+        height: 80vh !important;
+    }
+    .card-div div {
+        background-repeat: no-repeat;
+        height: 25rem;
+    }
+    .card-div>div{
+        margin-bottom: 1rem;
+    }
+    .flex-colum{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .copyright{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 467px) {
+    .home-img-div {
+        height: 50vh;
+        width: 100%;
+        margin-bottom: 1rem !important;
+      
+    }
+    .head-line-row {
+        height: 50vh !important;
+    }
+
+}
