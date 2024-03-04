@@ -29,7 +29,7 @@
 body {
     font-family: var(--primary-font);
     background-color: var(--bg-white);
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 a {
